@@ -13,8 +13,23 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 :root {
-    --bs-primary: #0b00a6
-    --bs-primary-rgb: 11, 0, 166;
-    --bs-secondary: #c07300;
-    --bs-secondary-rgb: 238, 143, 0;
+    --bs-primary: #554fad;
+    --bs-primary-rgb: 221, 160, 221;
+    --bs-secondary: #D8BFD8;
+    --bs-secondary-rgb: 221, 160, 221;
+}
+
+.expedu_icon {
+    color:#495057;
+}
+
+.expedu_icon:hover {
+    color: var(--bs-secondary);
+}
+a {
+    color: var(--bs-primary);
+}
+
+.social-icons .social-icon:hover{
+    background-color: var(--bs-secondary);
 }
